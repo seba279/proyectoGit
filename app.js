@@ -7,7 +7,7 @@ app.get("/", (req, res) => {
     res.sendFile(__dirname + "/index.html")
 })  
 
-const PORT = process.env.PORT || 8080
+const PORT = process.env.PORT || 8081
 
 const server = app.listen(PORT, () => {
     console.log(`Servidor express escuchando en el puerto ${PORT}`);
